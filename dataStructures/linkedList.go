@@ -42,3 +42,17 @@ func (ll LinkedList) Display() {
 		current = current.next
 	}
 }
+
+func (ll LinkedList) IsEmpty() bool {
+	return ll.root == nil
+}
+
+func (ll LinkedList) Length() int {
+	current := ll.root
+	count := 0
+	for current != nil {
+		current = current.next
+		count++
+	}
+	return count
+}
