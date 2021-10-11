@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/hawksterdhruv/dataStructures"
+	"github.com/hawksterdhruv/dsa_with_go/dataStructures"
 )
 
 func main() {
@@ -15,16 +15,4 @@ func main() {
 	linkedList.AddNodeAtBeginning(2)
 	linkedList.Display()
 	fmt.Println()
-	// var root Node
-	// root.data = 0
-
-	// var temp Node
-	// temp.data = 1
-
-	// root.next = &temp
-	// var current *Node = &root
-	// for current != nil {
-	// 	fmt.Println(current.data)
-	// 	current = current.next
-	// }
 }
