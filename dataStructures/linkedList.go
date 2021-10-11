@@ -1,4 +1,4 @@
-package main
+package dataStructures
 
 import "fmt"
 
@@ -11,7 +11,7 @@ type LinkedList struct {
 	root *Node
 }
 
-func (ll *LinkedList) addNode(data int) {
+func (ll *LinkedList) AddNode(data int) {
 	node := Node{data: data}
 	if ll.root == nil {
 		ll.root = &node
@@ -24,7 +24,7 @@ func (ll *LinkedList) addNode(data int) {
 	}
 }
 
-func (ll *LinkedList) addNodeAtBeginning(data int) {
+func (ll *LinkedList) AddNodeAtBeginning(data int) {
 	node := Node{data: data}
 	if ll.root == nil {
 		ll.root = &node
@@ -34,7 +34,7 @@ func (ll *LinkedList) addNodeAtBeginning(data int) {
 	}
 }
 
-func (ll LinkedList) display() {
+func (ll LinkedList) Display() {
 	current := ll.root
 	fmt.Println()
 	for current != nil {
