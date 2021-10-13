@@ -3,9 +3,21 @@
 ## Data Structures
 
 ### Linked Lists
-1. Singlely Linked Lists
-    1. Insertion
-    2. Insertion At beginning
-    3. DataType (integer)
+Singlely Linked Lists
+-------
+DataType : integer
+Functionality : 
+1. Insertion
+2. Insertion At beginning
+
+
+### Trees
+BST
+----
+DataType : integer
+Functionality : 
+1. Insertion
+2. In Order Traversal
+
 
 ## Algorithms
