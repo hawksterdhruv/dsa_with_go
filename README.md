@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-
 - [Running Tests](#running-tests)
-- [All Tests](#all-tests)
+  - [All Tests](#all-tests)
     - [Single Test](#single-test)
 - [Data Structures](#data-structures)
-- [Linked Lists](#linked-lists)
+  - [Linked Lists](#linked-lists)
     - [Singlely Linked Lists](#singlely-linked-lists)
-- [Trees](#trees)
+  - [Trees](#trees)
     - [BST](#bst)
 - [Algorithms](#algorithms)
-- [Sorting](#sorting)
+  - [Sorting](#sorting)
     - [Insertion Sort](#insertion-sort)
-- [Searching](#searching)
+    - [Selection Sort](#selection-sort)
+  - [Searching](#searching)
     - [Binary Search](#binary-search)
 
 
@@ -52,6 +52,11 @@ Functionality :
 
 ### Sorting
 #### Insertion Sort
+
+Data Type : integer
+Data Structure : Array
+
+#### Selection Sort
 
 Data Type : integer
 Data Structure : Array
